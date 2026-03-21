@@ -1,6 +1,6 @@
 # 🏥 Health Insurance Cross-Sell — Propensity Score Ranking
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/project_image.png)
 
 ## 📌 Business Problem
 
