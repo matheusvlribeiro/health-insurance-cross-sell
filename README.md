@@ -1,5 +1,7 @@
 # 🏥 Health Insurance Cross-Sell — Propensity Score Ranking
 
+![Dashboard](images/dashboard.png)
+
 ## 📌 Business Problem
 
 A health insurance company wants to expand into **car insurance** through a **cross-sell strategy**.
