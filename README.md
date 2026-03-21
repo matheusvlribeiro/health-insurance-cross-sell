@@ -163,6 +163,5 @@ jupyter notebook notebooks/01-health_insurance_revised.ipynb
 ---
 
 ## 👤 Author
-
 Made by **Matheus Ribeiro** — Data Science student.  
-Feel free to connect on [LinkedIn](#https://www.linkedin.com/in/matheusvlribeiro/) or check out other projects on [GitHub](#https://github.com/matheusvlribeiro).
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/matheusvlribeiro/) or check out other projects on [GitHub](https://github.com/matheusvlribeiro).
