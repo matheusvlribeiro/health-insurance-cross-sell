@@ -129,6 +129,23 @@ Revenue simulation assumptions:
 
 Clients are grouped into propensity buckets (0.05 intervals). For each bucket, actual conversion rate, gross revenue, cost and net revenue are computed using real ground truth labels from the test set.
 
+### Results (Random Forest, test set)
+
+Test set: 95,272 clients, 11,764 buyers (base conversion rate: 12.35%). Clients ranked by predicted propensity.
+
+| Clients contacted (highest propensity) | % of base | Buyers captured | Conversion | Lift | Simulated net revenue |
+|---|---|---|---|---|---|
+| propensity ≥ 0.45 | 1.8% (1,687) | 695 (5.9%) | 41.2% | 3.34x | R$ 21,052 |
+| propensity ≥ 0.40 | 4.5% (4,269) | 1,702 (14.5%) | 39.9% | 3.23x | R$ 51,004 |
+| propensity ≥ 0.30 | 16.6% (15,844) | 5,662 (48.1%) | 35.7% | 2.89x | R$ 163,104 |
+| propensity ≥ 0.25 | 25.0% (23,776) | 7,945 (67.5%) | 33.4% | 2.71x | R$ 222,696 |
+| propensity ≥ 0.10 | 43.1% (41,090) | 11,030 (93.8%) | 26.8% | 2.17x | R$ 276,840 |
+| Entire base (no model) | 100% | 11,764 | 12.35% | 1.00x | R$ 89,472 |
+
+**Takeaway:** contacting only the top 43% of clients by propensity captures 93.8% of buyers and yields about 3.1x the net revenue of calling the entire base. Below propensity 0.10, the call cost exceeds the expected return.
+
+Figures derived from the output of section 10.2 of `notebooks/01-health_insurance_revised.ipynb`.
+
 ---
 
 ## 🛠️ Tech Stack
